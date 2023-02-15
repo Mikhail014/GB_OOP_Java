@@ -3,7 +3,7 @@ package Seminar1;
 import java.util.ArrayList;
 
 public class VendingMachine {
-    private ArrayList<Product> products;
+    protected ArrayList<Product> products;
 
     public VendingMachine(){}
 
@@ -15,13 +15,12 @@ public class VendingMachine {
         return products;
     }
 
-    public ArrayList<Product> GetProductsByName(String name){
-        ArrayList<Product> productsByName = new ArrayList<>();
+    public Product GetProduct(String name){
         for (Product el: products){
             if (el.getName().equals(name)){
-                productsByName.add(el);
+                return el;
             }
         }
-        return productsByName;
+        return null;
     }
 }

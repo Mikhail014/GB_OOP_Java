@@ -25,14 +25,13 @@ public class DrinkVendingMachine extends VendingMachine{
         drinkList.add(drink);
     }
 
-    public ArrayList<Product> GetProductsByName(String name){
-        ArrayList<Product> productsByName = new ArrayList<>();
+    public Product GetProduct(String name){
         for (Drink el: drinkList){
             if (el.getName().equals(name)){
-                productsByName.add(el);
+                return el;
             }
         }
-        return productsByName;
+        return null;
     }
 
 }

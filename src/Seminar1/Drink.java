@@ -2,12 +2,13 @@ package Seminar1;
 
 public class Drink extends Product {
 
-    private int volumeDrink;
+    protected int volumeDrink;
 
     public Drink() {}
 
     public Drink(String name, float price, int volumeDrink) {
         super(name, price);
+        this.volumeDrink = volumeDrink;
     }
 
     public int getVolumeDrink() {
@@ -20,5 +21,10 @@ public class Drink extends Product {
 
     public void consume(){
         System.out.println(name + " - напиток выпит");
+    }
+
+    @Override
+    public String toString() {
+        return name + ", " + price + " руб.";
     }
 }
