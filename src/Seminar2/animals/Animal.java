@@ -21,7 +21,7 @@ public abstract class Animal {
             weight += foodWeight;
         }
         else {
-            System.out.println("");
+            System.out.println("Вес не может быть выше " + getMaxWeight() + " кг.");
         }
     }
 

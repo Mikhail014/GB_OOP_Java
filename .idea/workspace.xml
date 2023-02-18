@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="Задание. Горячие напитки">
-      <change afterPath="$PROJECT_DIR$/src/Seminar2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar2/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar2/animals/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar2/animals/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar2/cage/AnimalCage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar2/cage/LionCage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar2/factory/LionsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar2/animals/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar2/cage/WolfCage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar2/animals/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
