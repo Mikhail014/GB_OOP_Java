@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class WolfCage implements AnimalCage{
 
-    ArrayList<Wolf> wolves;
+    private ArrayList<Wolf> wolves;
     private int pollutionVolume;
 
     public WolfCage() {
@@ -27,9 +27,9 @@ public class WolfCage implements AnimalCage{
     }
 
     @Override
-    public void feedTransferInCage(int countFeed) {
+    public void addFood(int foodWeight) {
         for (Animal animal: wolves){
-            animal.feed(countFeed / wolves.size());
+            animal.feed(foodWeight / wolves.size());
         }
     }
 
@@ -40,6 +40,9 @@ public class WolfCage implements AnimalCage{
 
     @Override
     public Animal getFirstAnimalFromCage() {
-        return wolves.get(0);
+        if (!wolves.isEmpty()){
+            return wolves.get(0);
+        }
+        return null;
     }
 }

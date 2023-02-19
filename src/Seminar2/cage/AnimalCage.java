@@ -5,9 +5,7 @@ import Seminar2.animals.Animal;
 public interface AnimalCage {
 
     void addAnimalInCage(Animal animal);
-
-    void feedTransferInCage(int countFeed);
-
+    void addFood(int foodWeight);
     void clearCage();
     Animal getFirstAnimalFromCage();
 

@@ -27,9 +27,9 @@ public class LionCage implements AnimalCage{
     }
 
     @Override
-    public void feedTransferInCage(int countFeed) {
+    public void addFood(int foodWeight) {
         for (Animal animal: lions){
-            animal.feed(countFeed / lions.size());
+            animal.feed(foodWeight / lions.size());
         }
     }
 
@@ -40,7 +40,10 @@ public class LionCage implements AnimalCage{
 
     @Override
     public Animal getFirstAnimalFromCage() {
-        return lions.get(0);
+        if (!lions.isEmpty()){
+            return lions.get(0);
+        }
+        return null;
     }
 
 }
