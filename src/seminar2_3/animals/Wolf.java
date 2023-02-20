@@ -1,4 +1,4 @@
-package Seminar2.animals;
+package seminar2_3.animals;
 
 public class Wolf extends Animal {
 
@@ -19,5 +19,14 @@ public class Wolf extends Animal {
     @Override
     public String getType() {
         return TYPE;
+    }
+
+    @Override
+    public String toString() {
+        return "Wolf{" +
+                "age=" + age +
+                ", weight=" + weight +
+                ", numberOfLimbs=" + numberOfLimbs +
+                '}';
     }
 }

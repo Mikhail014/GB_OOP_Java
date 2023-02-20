@@ -1,9 +1,11 @@
-package Seminar2.cage;
+package seminar2_3.cage;
 
-import Seminar2.animals.Animal;
-import Seminar2.animals.Lion;
+import seminar2_3.animals.Animal;
+import seminar2_3.animals.Lion;
+import seminar2_3.comporator.LionComparator;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class LionCage implements AnimalCage{
 
@@ -14,9 +16,17 @@ public class LionCage implements AnimalCage{
         lions = new ArrayList<>();
     }
 
+    public LionCage(ArrayList<Lion> lions) {
+        this.lions = lions;
+    }
+
     public LionCage(ArrayList<Lion> lions, int pollutionVolume) {
         this.lions = lions;
         this.pollutionVolume = pollutionVolume;
+    }
+
+    public void sortLions() {
+        Collections.sort(lions);
     }
 
     @Override
@@ -44,6 +54,10 @@ public class LionCage implements AnimalCage{
             return lions.get(0);
         }
         return null;
+    }
+
+    public void sortManeVolume() {
+        Collections.sort(lions, new LionComparator());
     }
 
 }

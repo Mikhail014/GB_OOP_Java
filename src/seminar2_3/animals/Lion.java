@@ -1,12 +1,13 @@
-package Seminar2.animals;
+package seminar2_3.animals;
 
-public class Lion extends Animal{
+public class Lion extends Animal implements Comparable<Lion> {
     private int maneVolume;
     protected static final int MAX_WEIGHT = 100;
     protected static final String TYPE = "Lion";
 
 
-    public Lion() {}
+    public Lion() {
+    }
 
     public Lion(int maneVolume) {
         this.maneVolume = maneVolume;
@@ -18,8 +19,7 @@ public class Lion extends Animal{
     }
 
 
-
-    public float getManeVolume() {
+    public int getManeVolume() {
         return maneVolume;
     }
 
@@ -39,9 +39,16 @@ public class Lion extends Animal{
 
     @Override
     public String toString() {
-        return "Возраст: " + age + "\n" +
-                "Вес: " + weight + "\n" +
-                "Количество конечностей: " + numberOfLimbs + "\n" +
-                "Объем гривы: " + maneVolume;
+        return "Lion{" +
+                "maneVolume=" + maneVolume +
+                ", age=" + age +
+                ", weight=" + weight +
+                ", numberOfLimbs=" + numberOfLimbs +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Lion o) {
+        return Integer.compare(this.getAge(), o.getAge());
     }
 }

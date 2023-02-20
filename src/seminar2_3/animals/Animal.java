@@ -1,4 +1,4 @@
-package Seminar2.animals;
+package seminar2_3.animals;
 
 public abstract class Animal {
     protected int age;

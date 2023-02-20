@@ -1,12 +1,15 @@
-package Seminar2.cage;
+package seminar2_3.cage;
 
-import Seminar2.animals.Animal;
-import Seminar2.animals.Lion;
-import Seminar2.animals.Wolf;
+import seminar2_3.animals.Animal;
+import seminar2_3.animals.Wolf;
+import seminar2_3.comporator.WolfComparator;
+import seminar2_3.iterator.WolfIterator;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 
-public class WolfCage implements AnimalCage{
+public class WolfCage implements AnimalCage, Iterable<Wolf>{
 
     private ArrayList<Wolf> wolves;
     private int pollutionVolume;
@@ -44,5 +47,14 @@ public class WolfCage implements AnimalCage{
             return wolves.get(0);
         }
         return null;
+    }
+
+    @Override
+    public Iterator<Wolf> iterator() {
+        return new WolfIterator(wolves);
+    }
+
+    public void sortWolves() {
+        Collections.sort(wolves, new WolfComparator());
     }
 }

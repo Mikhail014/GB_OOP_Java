@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="Задание. Wolf, WolfCage, AnimalCage">
+    <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="Задание. Wolf, WolfCage, AnimalCage. Исправление ошибок">
+      <change afterPath="$PROJECT_DIR$/src/lessons/lesson3/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons/lesson3/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons/lesson3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons/lesson3/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar2_3/comporator/LionComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar2_3/comporator/WolfComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar2_3/factory/WolvesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar2_3/iterator/LionIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar2_3/iterator/WolfIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seminar2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seminar2/cage/AnimalCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar2/cage/AnimalCage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seminar2/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar2/cage/LionCage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seminar2/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar2/cage/WolfCage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seminar2/factory/LionsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar2/factory/LionsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/DrinkVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/DrinkVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/HotDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/HotDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/HotDrinkVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/HotDrinkVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar1/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/animals/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/animals/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/animals/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/animals/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/cage/AnimalCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/cage/AnimalCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/cage/LionCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/cage/WolfCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar2/factory/LionsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/factory/LionsFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676759796873</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Задание. Wolf, WolfCage, AnimalCage. Исправление ошибок">
+      <created>1676822089655</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676822089655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -89,6 +116,7 @@
     <MESSAGE value="Семинар 1" />
     <MESSAGE value="Задание. Горячие напитки" />
     <MESSAGE value="Задание. Wolf, WolfCage, AnimalCage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание. Wolf, WolfCage, AnimalCage" />
+    <MESSAGE value="Задание. Wolf, WolfCage, AnimalCage. Исправление ошибок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание. Wolf, WolfCage, AnimalCage. Исправление ошибок" />
   </component>
 </project>

@@ -1,6 +1,6 @@
-package Seminar2.cage;
+package seminar2_3.cage;
 
-import Seminar2.animals.Animal;
+import seminar2_3.animals.Animal;
 
 public interface AnimalCage {
 
