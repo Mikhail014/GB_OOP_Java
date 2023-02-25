@@ -25,9 +25,7 @@ public class WolfCage implements AnimalCage<Wolf>, Iterable<Wolf>{
 
     @Override
     public void addAnimalInCage(Wolf animal) {
-        if (animal instanceof Wolf){
-            wolves.add((Wolf) animal);
-        }
+        wolves.add(animal);
     }
 
     @Override
@@ -47,11 +45,6 @@ public class WolfCage implements AnimalCage<Wolf>, Iterable<Wolf>{
         if (!wolves.isEmpty()){
             return wolves.get(0);
         }
-        return null;
-    }
-
-    @Override
-    public List<Wolf> sortByAge(List<Wolf> animalList) {
         return null;
     }
 

@@ -57,11 +57,6 @@ public class LionCage implements AnimalCage<Lion>{
         return null;
     }
 
-    @Override
-    public List<Lion> sortByAge(List<Lion> animalList) {
-        return null;
-    }
-
     public void sortManeVolume() {
         Collections.sort(lions, new LionComparator());
     }

@@ -20,9 +20,7 @@ public class SnakeCage implements AnimalCage<Snake>{
 
     @Override
     public void addAnimalInCage(Snake animal) {
-        if (animal instanceof Snake){
-            snakes.add((Snake) animal);
-        }
+        snakes.add(animal);
     }
 
     @Override
@@ -45,8 +43,4 @@ public class SnakeCage implements AnimalCage<Snake>{
         return null;
     }
 
-    @Override
-    public List<Snake> sortByAge(List<Snake> animalList) {
-        return null;
-    }
 }

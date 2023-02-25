@@ -4,29 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="изменение имени главного пакета">
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson4/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminarProject/animalUtils/AnimalUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminarProject/cage/AnimalCage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminarProject/cage/SnakeCage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminarProject/comporator/AnimalComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminarProject/zoo/Zoo.java" afterDir="false" />
+    <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="Работа на семинаре 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/animals/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/animals/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/animals/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/animals/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/animals/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/animals/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/cage/AnimalCage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/LionCage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/WolfCage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/comporator/LionComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/comporator/LionComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/comporator/WolfComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/comporator/WolfComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/factory/LionsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/factory/LionsFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/factory/WolvesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/factory/WolvesFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/iterator/LionIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/iterator/LionIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zoo/iterator/WolfIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/iterator/WolfIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar1/DrinkVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/DrinkVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar1/HotDrinkVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/HotDrinkVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar1/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar1/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/cage/AnimalCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/AnimalCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/LionCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/cage/SnakeCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/SnakeCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/WolfCage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,8 +112,26 @@
       <option name="project" value="LOCAL" />
       <updated>1677334836705</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Работа на семинаре 4">
+      <created>1677350077200</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677350077200</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -137,6 +142,7 @@
     <MESSAGE value="Домашнее задание. Iterable, Iterator, Comporator. Работа на семинаре. Лекция" />
     <MESSAGE value="Рефакторинг метода compare в классе WolfComparator" />
     <MESSAGE value="изменение имени главного пакета" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменение имени главного пакета" />
+    <MESSAGE value="Работа на семинаре 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа на семинаре 4" />
   </component>
 </project>

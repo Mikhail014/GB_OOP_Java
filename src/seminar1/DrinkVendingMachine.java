@@ -2,31 +2,16 @@ package seminar1;
 
 import java.util.ArrayList;
 
-public class DrinkVendingMachine extends VendingMachine{
-
-    private ArrayList<Drink> drinkList;
+public class DrinkVendingMachine extends VendingMachine<Drink>{
 
     public DrinkVendingMachine() {}
 
-    public DrinkVendingMachine(ArrayList<Product> products, ArrayList<Drink> drinks) {
+    public DrinkVendingMachine(ArrayList<Drink> products) {
         super(products);
-        this.drinkList = drinks;
     }
 
-    public DrinkVendingMachine(ArrayList<Drink> drinks) {
-        this.drinkList = drinks;
-    }
-
-    public ArrayList<Drink> getDrinkList() {
-        return drinkList;
-    }
-
-    public void addDrink(Drink drink){
-        drinkList.add(drink);
-    }
-
-    public Product GetProduct(String name){
-        for (Drink el: drinkList){
+    public Drink getProduct(String name){
+        for (Drink el: products){
             if (el.getName().equals(name)){
                 return el;
             }

@@ -2,23 +2,21 @@ package seminar1;
 
 import java.util.ArrayList;
 
-public class HotDrinkVendingMachine extends VendingMachine {
+public class HotDrinkVendingMachine extends VendingMachine<HotDrink> {
 
     public HotDrinkVendingMachine() {}
 
-    public HotDrinkVendingMachine(ArrayList<Product> products) {
+    public HotDrinkVendingMachine(ArrayList<HotDrink> products) {
         super(products);
     }
 
-    public HotDrink GetProduct(String name, int volume, int temp){
-        for (Product el: products){
-            if (el instanceof HotDrink){
-                HotDrink hd = (HotDrink) el;
-                if (hd.getName().equals(name) && volume == hd.getVolumeDrink()
-                        && temp == ((HotDrink) el).getTemp()){
-                    return hd;
-                }
+    public HotDrink getProduct(String name, int volume, int temp){
+        for (HotDrink el: products){
+            if (el.getName().equals(name) && volume == el.getVolumeDrink()
+                    && temp == el.getTemp()){
+                return el;
             }
+
         }
         return null;
     }

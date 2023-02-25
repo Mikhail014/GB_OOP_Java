@@ -2,21 +2,21 @@ package seminar1;
 
 import java.util.ArrayList;
 
-public class VendingMachine {
-    protected ArrayList<Product> products;
+public class VendingMachine<T extends Product> {
+    protected ArrayList<T> products;
 
     public VendingMachine(){}
 
-    public VendingMachine(ArrayList<Product> products){
+    public VendingMachine(ArrayList<T> products){
         this.products = products;
     }
 
-    public ArrayList<Product> getProducts() {
+    public ArrayList<T> getProducts() {
         return products;
     }
 
-    public Product GetProduct(String name){
-        for (Product el: products){
+    public T getProduct(String name){
+        for (T el: products){
             if (el.getName().equals(name)){
                 return el;
             }

@@ -10,6 +10,5 @@ public interface AnimalCage<T extends Animal> {
     void addFood(int foodWeight);
     void clearCage();
     T getFirstAnimalFromCage();
-    List<T> sortByAge(List<T> animalList);
 
 }
