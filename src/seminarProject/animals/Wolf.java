@@ -1,4 +1,4 @@
-package zoo.animals;
+package seminarProject.animals;
 
 public class Wolf extends Animal {
 

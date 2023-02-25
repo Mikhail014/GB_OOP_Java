@@ -1,6 +1,6 @@
-package zoo.comporator;
+package seminarProject.comporator;
 
-import zoo.animals.Lion;
+import seminarProject.animals.Lion;
 
 import java.util.Comparator;
 

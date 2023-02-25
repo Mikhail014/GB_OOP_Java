@@ -1,6 +1,6 @@
-package zoo.factory;
+package seminarProject.factory;
 
-import zoo.animals.Wolf;
+import seminarProject.animals.Wolf;
 
 import java.util.ArrayList;
 import java.util.Random;

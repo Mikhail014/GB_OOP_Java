@@ -1,13 +1,14 @@
-package zoo.cage;
+package seminarProject.cage;
 
-import zoo.animals.Animal;
-import zoo.animals.Lion;
-import zoo.comporator.LionComparator;
+import seminarProject.animals.Animal;
+import seminarProject.animals.Lion;
+import seminarProject.comporator.LionComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
-public class LionCage implements AnimalCage{
+public class LionCage implements AnimalCage<Lion>{
 
     private ArrayList<Lion> lions;
     private int pollutionVolume;
@@ -30,7 +31,7 @@ public class LionCage implements AnimalCage{
     }
 
     @Override
-    public void addAnimalInCage(Animal animal) {
+    public void addAnimalInCage(Lion animal) {
         if (animal instanceof Lion){
             lions.add((Lion) animal);
         }
@@ -49,10 +50,15 @@ public class LionCage implements AnimalCage{
     }
 
     @Override
-    public Animal getFirstAnimalFromCage() {
+    public Lion getFirstAnimalFromCage() {
         if (!lions.isEmpty()){
             return lions.get(0);
         }
+        return null;
+    }
+
+    @Override
+    public List<Lion> sortByAge(List<Lion> animalList) {
         return null;
     }
 

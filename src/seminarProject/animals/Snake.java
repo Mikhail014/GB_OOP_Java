@@ -1,4 +1,4 @@
-package zoo.animals;
+package seminarProject.animals;
 
 public class Snake extends Animal{
     private int bodyLength;

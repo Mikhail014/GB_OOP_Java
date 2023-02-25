@@ -1,4 +1,4 @@
-package zoo.animals;
+package seminarProject.animals;
 
 public abstract class Animal {
     protected int age;

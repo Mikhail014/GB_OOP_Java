@@ -1,4 +1,4 @@
-package zoo.animals;
+package seminarProject.animals;
 
 public class Lion extends Animal implements Comparable<Lion> {
     private int maneVolume;

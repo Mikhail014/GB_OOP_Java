@@ -1,8 +1,8 @@
-package zoo;
+package seminarProject;
 
-import zoo.animals.Wolf;
-import zoo.cage.WolfCage;
-import zoo.factory.WolvesFactory;
+import seminarProject.animals.Wolf;
+import seminarProject.cage.WolfCage;
+import seminarProject.factory.WolvesFactory;
 
 import java.util.ArrayList;
 

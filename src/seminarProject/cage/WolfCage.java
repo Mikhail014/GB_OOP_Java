@@ -1,15 +1,16 @@
-package zoo.cage;
+package seminarProject.cage;
 
-import zoo.animals.Animal;
-import zoo.animals.Wolf;
-import zoo.comporator.WolfComparator;
-import zoo.iterator.WolfIterator;
+import seminarProject.animals.Animal;
+import seminarProject.animals.Wolf;
+import seminarProject.comporator.WolfComparator;
+import seminarProject.iterator.WolfIterator;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 
-public class WolfCage implements AnimalCage, Iterable<Wolf>{
+public class WolfCage implements AnimalCage<Wolf>, Iterable<Wolf>{
 
     private ArrayList<Wolf> wolves;
     private int pollutionVolume;
@@ -23,7 +24,7 @@ public class WolfCage implements AnimalCage, Iterable<Wolf>{
     }
 
     @Override
-    public void addAnimalInCage(Animal animal) {
+    public void addAnimalInCage(Wolf animal) {
         if (animal instanceof Wolf){
             wolves.add((Wolf) animal);
         }
@@ -42,10 +43,15 @@ public class WolfCage implements AnimalCage, Iterable<Wolf>{
     }
 
     @Override
-    public Animal getFirstAnimalFromCage() {
+    public Wolf getFirstAnimalFromCage() {
         if (!wolves.isEmpty()){
             return wolves.get(0);
         }
+        return null;
+    }
+
+    @Override
+    public List<Wolf> sortByAge(List<Wolf> animalList) {
         return null;
     }
 

@@ -1,6 +1,6 @@
-package zoo.iterator;
+package seminarProject.iterator;
 
-import zoo.animals.Lion;
+import seminarProject.animals.Lion;
 
 import java.util.ArrayList;
 import java.util.Iterator;
