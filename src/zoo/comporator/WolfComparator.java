@@ -1,6 +1,6 @@
-package seminar2_3.comporator;
+package zoo.comporator;
 
-import seminar2_3.animals.Wolf;
+import zoo.animals.Wolf;
 
 import java.util.Comparator;
 

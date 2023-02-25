@@ -1,8 +1,8 @@
-package seminar2_3.cage;
+package zoo.cage;
 
-import seminar2_3.animals.Animal;
-import seminar2_3.animals.Lion;
-import seminar2_3.comporator.LionComparator;
+import zoo.animals.Animal;
+import zoo.animals.Lion;
+import zoo.comporator.LionComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

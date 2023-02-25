@@ -1,9 +1,9 @@
-package seminar2_3.cage;
+package zoo.cage;
 
-import seminar2_3.animals.Animal;
-import seminar2_3.animals.Wolf;
-import seminar2_3.comporator.WolfComparator;
-import seminar2_3.iterator.WolfIterator;
+import zoo.animals.Animal;
+import zoo.animals.Wolf;
+import zoo.comporator.WolfComparator;
+import zoo.iterator.WolfIterator;
 
 import java.util.ArrayList;
 import java.util.Collections;

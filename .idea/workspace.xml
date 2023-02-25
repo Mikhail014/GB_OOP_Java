@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="Домашнее задание. Iterable, Iterator, Comporator. Работа на семинаре. Лекция">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar2_3/comporator/WolfComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar2_3/comporator/WolfComparator.java" afterDir="false" />
-    </list>
+    <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="Рефакторинг метода compare в классе WolfComparator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676854477561</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Рефакторинг метода compare в классе WolfComparator">
+      <created>1676959568373</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676959568373</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,6 +105,7 @@
     <MESSAGE value="Задание. Wolf, WolfCage, AnimalCage" />
     <MESSAGE value="Задание. Wolf, WolfCage, AnimalCage. Исправление ошибок" />
     <MESSAGE value="Домашнее задание. Iterable, Iterator, Comporator. Работа на семинаре. Лекция" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашнее задание. Iterable, Iterator, Comporator. Работа на семинаре. Лекция" />
+    <MESSAGE value="Рефакторинг метода compare в классе WolfComparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг метода compare в классе WolfComparator" />
   </component>
 </project>
