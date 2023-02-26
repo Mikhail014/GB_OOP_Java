@@ -10,13 +10,4 @@ public class DrinkVendingMachine extends VendingMachine<Drink>{
         super(products);
     }
 
-    public Drink getProduct(String name){
-        for (Drink el: products){
-            if (el.getName().equals(name)){
-                return el;
-            }
-        }
-        return null;
-    }
-
 }
