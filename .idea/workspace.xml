@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="Домашняя работа. Урок 4. Обобщения">
+    <list default="true" id="2bc7a525-20de-4cbd-9bfb-c51cd2a601a8" name="Changes" comment="удаление метода getProduct из класса DrinkVendingMachine">
+      <change afterPath="$PROJECT_DIR$/src/seminarProject/terminal/CommandExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminarProject/terminal/CommandExecutableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminarProject/terminal/CommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminarProject/terminal/CreateLionExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminarProject/terminal/DeleteLionExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminarProject/terminal/SpaceParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminarProject/terminal/TerminalReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/animals/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/animals/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/cage/AnimalCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/AnimalCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/cage/LionCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/LionCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/cage/SnakeCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/SnakeCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/cage/WolfCage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/cage/WolfCage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminarProject/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminarProject/zoo/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677354876720</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="удаление метода getProduct из класса DrinkVendingMachine">
+      <created>1677423163331</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677423163331</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +164,7 @@
     <MESSAGE value="изменение имени главного пакета" />
     <MESSAGE value="Работа на семинаре 4" />
     <MESSAGE value="Домашняя работа. Урок 4. Обобщения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашняя работа. Урок 4. Обобщения" />
+    <MESSAGE value="удаление метода getProduct из класса DrinkVendingMachine" />
+    <option name="LAST_COMMIT_MESSAGE" value="удаление метода getProduct из класса DrinkVendingMachine" />
   </component>
 </project>

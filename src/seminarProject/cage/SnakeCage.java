@@ -43,4 +43,11 @@ public class SnakeCage implements AnimalCage<Snake>{
         return null;
     }
 
+    @Override
+    public void deleteAnimalFromCage() {
+        if (!snakes.isEmpty()){
+            snakes.remove(0);
+        }
+    }
+
 }

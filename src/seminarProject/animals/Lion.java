@@ -39,12 +39,10 @@ public class Lion extends Animal implements Comparable<Lion> {
 
     @Override
     public String toString() {
-        return "Lion{" +
-                "maneVolume=" + maneVolume +
-                ", age=" + age +
-                ", weight=" + weight +
-                ", numberOfLimbs=" + numberOfLimbs +
-                '}';
+        return "Возраст: " + age
+                + "; Вес: " + weight
+                + "; Кол-во конечностей: " + numberOfLimbs
+                + "; Объем гривы: " + maneVolume;
     }
 
     @Override

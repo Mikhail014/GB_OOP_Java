@@ -57,6 +57,19 @@ public class LionCage implements AnimalCage<Lion>{
         return null;
     }
 
+    @Override
+    public void deleteAnimalFromCage() {
+        if (!lions.isEmpty()){
+            lions.remove(0);
+        }
+    }
+
+
+    @Override
+    public String toString() {
+        return "Клетка со львами: {" + lions + '}';
+    }
+
     public void sortManeVolume() {
         Collections.sort(lions, new LionComparator());
     }

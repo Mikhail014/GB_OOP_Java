@@ -49,6 +49,13 @@ public class WolfCage implements AnimalCage<Wolf>, Iterable<Wolf>{
     }
 
     @Override
+    public void deleteAnimalFromCage() {
+        if (!wolves.isEmpty()){
+            wolves.remove(0);
+        }
+    }
+
+    @Override
     public Iterator<Wolf> iterator() {
         return new WolfIterator(wolves);
     }

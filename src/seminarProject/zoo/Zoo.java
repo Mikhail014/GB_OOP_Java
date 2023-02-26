@@ -17,6 +17,10 @@ public class Zoo {
     private AnimalCage<Lion> lionCage;
     private AnimalCage<Snake> snakeCage;
 
+    public Zoo(AnimalCage<Lion> lionCage) {
+        this.lionCage = lionCage;
+    }
+
     public Zoo() {
         wolfCage = new WolfCage();
         lionCage = new LionCage();
@@ -27,5 +31,19 @@ public class Zoo {
         this.wolfCage = wolfCage;
         this.lionCage = lionCage;
         this.snakeCage = snakeCage;
+    }
+
+
+    public void deleteLion() {
+        lionCage.deleteAnimalFromCage();
+    }
+
+    public void addLion(Lion lion) {
+        lionCage.addAnimalInCage(lion);
+    }
+
+    @Override
+    public String toString() {
+        return lionCage + "\n";
     }
 }
